@@ -1,3 +1,5 @@
+// Program to reverse a number and check whether its palindrome or not
+// Author Aswin Lal
 
 //To get input
 import java.util.Scanner;
@@ -30,6 +32,8 @@ public class palindrome {
             System.out.println("Palindrome!");
         else
             System.out.println("Not Palindrome!");
+
+        // Closing the scanner method to prevent Resource leak
         Sr.close();
     }
 }
