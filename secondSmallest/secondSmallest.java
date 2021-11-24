@@ -32,6 +32,7 @@ public class secondSmallest {
 
         // Declaring and Getting the elements in the array
         int[] arr = new int[size];
+        System.out.println("Enter the elements");
         for (int i = 0; i < size; i++) {
             arr[i] = Sr.nextInt();
         }
